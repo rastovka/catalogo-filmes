@@ -1,0 +1,148 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo para cada filme */
+.filme {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #888;
+}
+
+/* Estilo para os títulos dos filmes */
+.filme h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as imagens dos filmes */
+.filme img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo para cada filme */
+.filme {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #888;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilo para os títulos dos filmes */
+.filme h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para as imagens dos filmes */
+.filme img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo para cada filme */
+.filme {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #888;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para as imagens dos filmes */
+.filme img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os títulos dos filmes */
+.filme h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilo para as informações dos filmes */
+.filme-info {
+    flex-grow: 1;
+}
+
+/* Estilo para as descrições dos filmes */
+.filme p {
+    margin: 0;
+}
+
+/* Estilo para tornar o site responsivo */
+@media screen and (min-width: 768px) {
+    .filme {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .filme img {
+        max-width: 200px;
+        margin-right: 20px;
+    }
+}
+
+
